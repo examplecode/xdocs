@@ -3,20 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: X浏览器
+subtitle: X浏览器
+description: 
 keywords:
-author: John Doe
-language:
+author: kai
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://doc.xbext.com
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+#permalink: :year/:month/:day/:title/
+permalink: :category/:title/
+permalink_defaults: 
 
 # Directory
 source_dir: source
@@ -30,6 +31,7 @@ skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
+#new_post_name: :lang/:title.md
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -80,7 +82,6 @@ theme: pure
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
-
 
 
 search:
